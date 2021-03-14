@@ -1,0 +1,48 @@
+*{
+padding: 50;
+margin: 98;
+color: #eee;
+text-align: center;
+}
+html, body{
+    background-color: white;
+}
+.main-container{
+    border: 1px white;
+    border-radius: 20px;
+    margin: 2rem;
+    background-color: rgb(34, 33, 33);   
+}
+nav,section,footer,article,aside{
+    border: 1px solid rgb(251, 254, 255);
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.imagenipn{
+
+    position: absolute;
+    left: 20%;
+    top: 4%;
+}
+.segundaimagen{
+position: absolute;
+left: 80%;
+top: 5%;
+}
+article,aside{
+ width: 40%;
+ display: inline-block;
+ height: 300px;
+}
+.nombre{
+    font-size: 250%;
+}
+.curri{
+    font-size: 150%;
+}
+.ultimo{
+position: absolute;
+left: 70;
+top: 199%;
+}
