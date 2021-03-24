@@ -1,26 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #menus{
-background-color: grey(0, 0, 2);
+background-color: red;
 
 }
 #menus ul{
     position: absolute;
     top: 40px;
     list-style: none;
-    
+    left: 20%;
     margin: 0;
     padding: 0;
 }
 #menus ul  li{
 display: inline-block;
 color: white;
+text-align: center;
 }
 #menus ul li a {
 
     display: block;
-    color: black;
+    color: rgb(33, 73, 119);
     text-decoration: none;
     padding: 20px 160px;
+    text-align: center;
 }
 #menus ul li a:hover{
-background-color: black; 
+background-color: rgb(182, 225, 236); 
+}
+#logo{
+    position: absolute;
+    left: 2%;
+    top: 0%;
+    
+}
+.bg-animate{
+    width: 1000%;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(255, 255, 255),rgb(255, 255, 255));
+    overflow: hidden;
+}
+.burbuja{
+   
+    border-radius: 50%;
+    background: black;
+    opacity: .3;
+    position: absolute;
+    bottom: -150;
+   
+    animation:burbujas 3s linear infinite ;
+}
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+}
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.3s;
+}
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+}
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+}
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 55%;
+    animation-duration: 3s;
+    animation-delay: 0.2s;
+}
+@keyframes burbujas{
+  0%{
+     bottom: 0;
+     opacity: 0;
+   }
+   30%{
+       transform: translateX(30px);
+   }
+   50%{
+       opacity:.4;
+
+   }
+   100%{
+       bottom:100vh ;
+       opacity: 0;
+   }
 }
