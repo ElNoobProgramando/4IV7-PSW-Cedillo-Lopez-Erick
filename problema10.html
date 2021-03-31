@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="JavaScript" type="text/JavaScript"
+    src="./js/problema10.js"></script>
+</head>
+<body>
+    <p>
+        Calcular la utilidad que un trabajador recibe en el reparto anual de utilidades si este se le asigna 
+        como un porcentaje de su salario mensual que depende de su antiguedad en la empresa deacuerdo con la sig Tabla
+       <li>-------Tiempo--------</li>
+        
+        <li>
+        Menos de 1 año                                                             
+        </li>
+        <li>1 o mas y menos de 2 años</li>
+        <li>2 años o mas y menos de 5 años</li>
+        <li>5 años o mas y menos de 10 años</li>
+        <li>10 años o mas </li>
+        </li>
+        <br>
+        <br>
+        <li>--------Unidad------</li>
+        <li>5% del salario</li>
+        <li>7% del salario</li>
+        <li>10% del salario</li>
+        <li>15% del salario</li>
+        <li>20% del salario</li>
+        </p>
+        <form name="problema10" method="get" action="problema10.html">
+            <table align="center" border="1";" >
+                <tr>
+                    <td class="td_up" >Años trabajando en la empresa: </td>
+                    <td class="td_down" > <input type="text" name="años"
+                    onkeypress="return validarn(event)"> </td>
+                </tr>
+                <tr>
+                    <td class="td_up" >Sueldo Mensual: </td>
+                    <td class="td_down" > <input type="text" name="sueldomensual"
+                    onkeypress="return validarn(event)"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="td_down"> <input type="button" value="Calcular utilidad"
+                        name="enviar" onclick="utilidad()"> </td>
+                </tr>
+                <tr>
+                    <td class="td_up" >El pago es :</td>
+                    <td class="td_down"> <input type="text" name="xd"
+                        id="igu" readonly="readonly" 
+                        class="input_text"> </td>
+</body>
+</html>

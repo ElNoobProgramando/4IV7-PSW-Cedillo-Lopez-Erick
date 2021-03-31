@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="JavaScript" type="text/JavaScript"
+    src="./js/problema08.js"></script>
+</head>
+<body>
+    <p>
+        Leer tres numeros diferentes e imprimir el numero mayor de los tres
+    </p>
+    <form name="problema8" method="get" action="problema08.html">
+        <table align="center" border="1";" >
+            <tr>
+                <td class="td_up" >Inserte el primer numero: </td>
+                <td class="td_down" > <input type="text" name="primernumero"
+                onkeypress="return validarn(event)"> </td>
+            </tr>
+            
+                    <tr>
+                        <td class="td_up" >Segundo Numero:</td>
+                        <td class="td_down" > <input type="text" name="segundonumero"
+                        onkeypress="return validarn(event)"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td_up" >Tercer  Numero:</td>
+                        <td class="td_down" > <input type="text" name="tercernumero"
+                        onkeypress="return validarn(event)"> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="td_down"> <input type="button" value="Leer Numeros"
+                            name="enviar" onclick="leerr()"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td_up" >El numero mayor es:</td>
+                        <td class="td_down"> <input type="text" name="mostrarr"
+                            id="igu" readonly="readonly" 
+                            class="input_text"> </td>
+                    </tr>
+                    <a href="index.html">Regresar al Menu Principal </a>
+                    <br>
+                    <br>
+                    <a href="problema09.html">Problema 9</a>
+</body>
+</html>

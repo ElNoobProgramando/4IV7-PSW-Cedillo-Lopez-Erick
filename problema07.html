@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="JavaScript" type="text/JavaScript"
+    src="./js/problema07.js"></script>
+</head>
+<body>
+    <p>
+        Leer 2 numeros ; si son iguales que los multiplique si el primero 
+        es mayor que el segundo que los reste y si no que los sume
+    </p>
+    <form name="problema7" method="get" action="problema07.html">
+        <table align="center" border="1";" >
+            <tr>
+                <td class="td_up" >Inserte el primer Numero: </td>
+                <td class="td_down" > <input type="text" name="numero1"
+                onkeypress="return validarn(event)"> </td>
+            </tr>
+
+                    <tr>
+                        <td class="td_up" >Inserte el segundo </td>
+                        <td class="td_down" > <input type="text" name="numero2"
+                        onkeypress="return validarn(event)"> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="td_down"> <input type="button" value="Leer Numeros"
+                            name="enviar" onclick="leer()"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td_up" >Son Iguales:</td>
+                        <td class="td_down"> <input type="text" name="iguales"
+                            id="igu" readonly="readonly" 
+                            class="input_text"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td_up" >El primero es Mayor :</td>
+                        <td class="td_down"> <input type="text" name="mayor"
+                            id="si" readonly="readonly" 
+                            class="input_text"> </td>
+                    </tr>
+                    <tr>
+                        <td class="td_up" >El segundo es mayor:</td>
+                        <td class="td_down"> <input type="text" name="mayors"
+                            id="si" readonly="readonly" 
+                            class="input_text"> </td>
+                    </tr>
+                    <a href="index.html">Regresar al Menu Principal </a>
+                    <br>
+                    <br>
+                    <a href="problema08.html">Problema 8</a>
+                    
+</body>
+</html>
