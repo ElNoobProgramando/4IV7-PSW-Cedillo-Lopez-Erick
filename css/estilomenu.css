@@ -3,16 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+#menu #desple{
+    display: none;
 
+}
+#menus :hover #desple{
+    display: block;
+
+}
 #menus{
 background-color: red;
 
 }
 #menus ul{
     position: absolute;
-    top: 40px;
+    top: 30px;
     list-style: none;
-    left: 20%;
+    left: 10%;
     margin: 0;
     padding: 0;
 }
@@ -26,7 +33,7 @@ text-align: center;
     display: block;
     color: rgb(33, 73, 119);
     text-decoration: none;
-    padding: 20px 160px;
+    padding: 10px 160px;
     text-align: center;
 }
 #menus ul li a:hover{
@@ -47,51 +54,80 @@ background-color: rgb(182, 225, 236);
 .burbuja{
    
     border-radius: 50%;
-    background: black;
-    opacity: .3;
+    background: rgb(166, 236, 240);
+    opacity: 40;
     position: absolute;
     bottom: -150;
+    font-size: 110%;
    
-    animation:burbujas 3s linear infinite ;
+    animation:burbujas 5s linear infinite ;
 }
 .burbuja:nth-child(1){
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 50px;
     left: 5%;
-    animation-duration: 3s;
+    animation-duration:15s;
 }
 
 .burbuja:nth-child(2){
     width: 100px;
     height: 100px;
     left: 35%;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 .burbuja:nth-child(3){
-    width: 20px;
-    height: 20px;
+    width: 90px;
+    height: 63px;
     left: 15%;
-    animation-duration: 1.3s;
+    animation-duration: 11s;
 }
 .burbuja:nth-child(4){
-    width: 50px;
+    width: 150px;
     height: 50px;
     left: 90%;
     animation-duration: 6s;
 }
 .burbuja:nth-child(5){
-    width: 70px;
-    height: 70px;
-    left: 65%;
-    animation-duration: 3s;
-    animation-delay: 0.1s;
+    width: 125px;
+    height: 55px;
+    left: 75%;
+    animation-duration: 7s;
+    animation-delay: 0.1ms;
 }
 .burbuja:nth-child(6){
-    width: 20px;
-    height: 20px;
+    width: 120px;
+    height: 50px;
     left: 55%;
-    animation-duration: 3s;
-    animation-delay: 0.2s;
+    animation-duration: 17s;
+    animation-delay: 0.2ms;
+}
+.burbuja:nth-child(7){
+    width: 120px;
+    height: 50px;
+    left: 55%;
+    animation-duration: 10s;
+    animation-delay: 0.1ms;
+}
+.burbuja:nth-child(8){
+    width: 120px;
+    height: 50px;
+    left: 41%;
+    animation-duration: 12s;
+    animation-delay: 0.2ms;
+}
+.burbuja:nth-child(9){
+    width: 120px;
+    height: 50px;
+    left: 10%;
+    animation-duration: 8s;
+    animation-delay: 0.1ms;
+}
+.burbuja:nth-child(10){
+    width: 120px;
+    height: 40px;
+    left: 21%;
+    animation-duration: 4.5s;
+    animation-delay: 0.1ms;
 }
 @keyframes burbujas{
   0%{
@@ -102,7 +138,7 @@ background-color: rgb(182, 225, 236);
        transform: translateX(30px);
    }
    50%{
-       opacity:.4;
+       opacity:.50;
 
    }
    100%{

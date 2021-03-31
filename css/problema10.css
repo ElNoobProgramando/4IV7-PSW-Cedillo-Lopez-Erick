@@ -1,0 +1,68 @@
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  display: block;
+}
+
+body {
+  line-height: 1.317101995;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  background-color: #614e4e;
+}
+
+.centered-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  background-color: #050505;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  height: 77px;
+  width: 300px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(104, 92, 92);
+  font-size: 18px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 2px solid #20e2d7;
+  margin-bottom: 40px;
+  z-index: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color: #20e2d7;
+  transition: all 500ms ease;
+  z-index: -1;
+}
+.btn--1::before {
+  width: 0;
+  height: 100%;
+}
+.btn--1:hover {
+  color: #434343;
+}
+.btn--1:hover::before {
+  width: 100%;
+}
