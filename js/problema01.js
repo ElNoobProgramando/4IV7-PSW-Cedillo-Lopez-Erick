@@ -21,7 +21,8 @@ function interes(){
     var valor = document.formulario.cantidad.value;
     var resultado = parseInt(valor);
     var interes = resultado*0.02;
-    var total = resultado + interes;
+    komo=interes;
+    var total = resultado + komo;
     document.formulario.sueldoti.value=total;
 }
 
