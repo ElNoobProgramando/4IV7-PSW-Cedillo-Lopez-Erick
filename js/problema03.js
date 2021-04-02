@@ -13,8 +13,8 @@ function validarn(e){
 function descuento(){
     var valor = document.problema3.cantidad.value;
     var resultado = parseInt(valor);
-    var interes = resultado*0.10;
-    var total = resultado + interes;
+    var interes = resultado*0.15;
+    var total = resultado - interes;
     totali=total
     document.problema3.sueldoti.value="$"+total;
 }

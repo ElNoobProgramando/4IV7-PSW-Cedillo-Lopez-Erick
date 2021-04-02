@@ -6,8 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/problema04.css">
+    <script language="JavaScript" type="text/JavaScript"
+    src="./js/problema04.js"></script>
 </head>
 <body style="color: white;">
+    <p>
+        Un alumno dessa saber cual sera su calificacion final en la materia de algoritmos
+        Dicha calificacion se compone de los siguientes porcentajes;
+       <ul>
+        <li>55% del promedio de sus tres calificaciones parciales 
+        <li>30% de la calificacion del examen final
+        <li>15% de la calificacion de un trabajo final
+        </li>
+        </ul>
+
+        </p>
+        <form name="problema04" method="get" action="problema04.html">
+            <table align="center" border="1";" >
+                <tr>
+                    <td class="td_up" >Introduce tu primer calificacion del primer parcial;</td>
+                    <td class="td_down" > <input type="text" name="primerparcial" id="primerparcial"
+                    > </td>
+                </tr>
+                <tr>
+                    <td class="td_up" >Introduce tu calificacion del segundo parcial;</td>
+                    <td class="td_down" > <input type="text" name="segundoparcial"
+                    > </td>
+                </tr>
+                <tr>
+                    <td class="td_up" >Introduce tu primer calificacion del tercer parcial;</td>
+                    <td class="td_down" > 
+                     <input type="text" name="tercerparcial"> </td>
+                </tr>
+                <tr>
+                    <td class="td_up" >Introduce tu calificacion del examen final;;</td>
+                    <td class="td_down" > <input type="text" name="examenfinal"> </td>
+                </tr> 
+                <tr>
+                    <td class="td_up" >Introduce tu calificacion del trabajo final;</td>
+                    <td class="td_down" > <input type="text" name="trabajofinal" > </td>
+                <tr>
+
+                    <td></td>
+                        <td class="td_down"> <input type="button" value="Promediar"
+                            name="enviar" onclick="aja()"></td>
+                </tr>
+               
+                <tr>
+                    <td class="td_up" >Calficacion final:</td>
+                    <td class="td_down"> <input type="text" name="omg" id="omg" readonly="readonly" 
+                        class="input_text"> </td>
+                </tr>
+            </tr>
     <div class="botones" style="color: rgb(42, 60, 94);">
         <div>
        <button class="btn btn--1">
