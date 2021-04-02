@@ -1,8 +1,4 @@
-/*
-vamos a crear una funcion que se encargue de validar
-a traves de una expresion regular la entrada de datos 
-dentro del campo de texto
-*/
+
 
 function validarn(e){
     var teclado = (document.all)?e.keyCode:e.which;
