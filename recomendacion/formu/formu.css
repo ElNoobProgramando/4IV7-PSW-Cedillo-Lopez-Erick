@@ -1,0 +1,12 @@
+ul.navega li {
+    display: inline;
+    padding-right: 0.5em;
+    align-items: center;
+  }
+  #menu #desple{
+    display: none;
+
+}
+#menus :hover #desple{
+    display: block;
+}
