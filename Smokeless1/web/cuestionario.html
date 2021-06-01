@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/resolvercuestionario.css">
+<title>Resolver Cuestionario</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+        <div class="contenido-header">
+          <img src="../SmokeLess/IMG/SmokeLess..png" width="50" height="50" id="logo">
+          <a href="menu.html" id="menu">Menu</a>
+          <a href="proyecciones.html" id="pro">Proyectar y Predecir</a>
+          <a href="recomendaciones.html" id="rec">Recomendaciones</a>
+          <a href="login.html"><img src="../SmokeLess/IMG/off.png" width="30" height="32" id="off"></a>
+        </div>
+    </header>
+    <br>
+    <div class="resolv">
+        <div class="resolv-form">
+          <br>
+          <div class="resolv-header">
+            <h1>Cuestionario</h1>
+          </div>
+            <br>
+            <form name="cuestionario" action="guardarrespu.jsp">
+              <center><p>1. ¿Usted es fumador?</p>
+                <input type="radio" name="preg1" value="Si" id="S1"><label for="S1">Si</label><br>
+                <input type="radio" name="preg1" value="No" id="N1"><label for="N1">No</label><br>
+              <br>
+              <p>2. ¿Fuma diario?</p>
+                  <input type="radio" name="preg2" value="Si" id="S2"><label for="S2">Si</label><br>
+                  <input type="radio" name="preg2" value="No" id="N2"><label for="N2">No</label><br>
+              <br><br>
+              
+              <br><br><br>
+              <label for="preg4">4. ¿Cuanto tiempo lleva fumando?=SI</label>
+              <select name="preg4" id="preg4">
+                <option value="Menos de 1 año">Menos de 1 año</option>
+                <option value="1-5 años">1-5 años</option>
+                <option value="6-10 años">6-10 años</option>
+                <option value="+10 años">+10 años</option>
+              </select>
+              <br><br><br>
+              <p>5. ¿Sufre de obesidad o sobrepeso?=SI</p>
+                <input type="radio" name="preg5" value="Si" id="S3"><label for="S3">Si</label><br>
+                <input type="radio" name="preg5" value="No" id="N3"><label for="N3">No</label><br>
+              <br>
+              <p>6. ¿Sufre de diabetes?=SI</p>
+                <input type="radio" name="preg6" value="Si" id="S4"><label for="S4">Si</label><br>
+                <input type="radio" name="preg6" value="No" id="N4"><label for="N4">No</label><br>
+              <br>
+              <p>7. (si su respuesta anterior fue si) ¿De que tipo?</p>
+                <input type="radio" name="preg7" value="1" id="D1"><label for="D1">Tipo 1</label><br>
+                <input type="radio" name="preg7" value="2" id="D2"><label for="D2">Tipo 2</label><br>
+             
+              
+              <p>10. ¿Suele tener exposición a gases de escape o a otro tipo de contaminación?=SI</p>
+                <input type="radio" name="preg10" value="Si" id="S6"><label for="S6">Si</label><br>
+                <input type="radio" name="preg10" value="No" id="N6"><label for="N6">No</label><br>
+              <br><br>
+             
+              <p>12. ¿Suele tener exposición a químicos, por ejemplo, en el ámbito laboral, 
+                en las industrias de la agricultura, la peluquería o la fabricación?=SI</p>
+                <input type="radio" name="preg12" value="Si" id="S7"><label for="S7">Si</label><br>
+                <input type="radio" name="preg12" value="No" id="N7"><label for="N7">No</label><br>
+              <br>
+              <p>13. ¿Su trabajo actual está relacionado con el subsuelo/mineral?=SI</p>
+                <input type="radio" name="preg13" value="Si" id="S8"><label for="S8">Si</label><br>
+                <input type="radio" name="preg13" value="No" id="N8"><label for="N8">No</label><br>
+              <br>
+              <p>14. ¿Consume alcohol?=SI</p>
+                <input type="radio" name="preg14" value="Si" id="S9"><label for="S9">Si</label><br>
+                <input type="radio" name="preg14" value="No" id="N9"><label for="N9">No</label><br>
+              <br>
+              
+              <label for="preg16">16. (Si su respuesta a la pregunta 14 fue si) ¿Cada cuanto sueles ingerirlo?</label>
+              <select name="preg16" id="preg16">
+                <option value="Diario">Diario</option>
+                <option value="Cada fin de semana">Cada fin de semana</option>
+                <option value="Cada 2 semanas">Cada 2 semanas</option>
+                <option value="Cada mes">Cada mes</option>
+              </select>
+              <br><br><br>
+              
+              <P>18. ¿Tiene alguna infección?=SI</P>
+                <input type="radio" name="preg18" value="Si" id="S10"><label for="S10">Si</label><br>
+                <input type="radio" name="preg18" value="No" id="N10"><label for="N10">No</label><br>
+              <br><br>
+             
+              <br><br><br>
+              <p>20. ¿Ha tenido alguna cirugía recientemente?=SI</p>
+                <input type="radio" name="preg20" value="Si" id="S11"><label for="S11">Si</label><br>
+                <input type="radio" name="preg20" value="No" id="N11"><label for="N11">No</label><br>
+              <br>
+              
+              <p>22. ¿Tiene el sistema inmune deficiente?=SI</p>
+                <input type="radio" name="preg22" value="Si" id="S13"><label for="S13">Si</label><br>
+                <input type="radio" name="preg22" value="No" id="N13"><label for="N13">No</label><br>
+              <br>
+              
+              <p>24. ¿Sufre de algún tipo de hepatitis?=SI</p>
+                <input type="radio" name="preg24" value="Si" id="S15"><label for="S15">Si</label><br>
+                <input type="radio" name="preg24" value="No" id="N15"><label for="N15">No</label><br>
+              <br>
+              <p>25. ¿Sufre de cirrosis?=SI</p>
+                <input type="radio" name="preg25" value="Si" id="S16"><label for="S16">Si</label><br>
+                <input type="radio" name="preg25" value="No" id="N16"><label for="N16">No</label><br>
+              <br>
+              <p>26. ¿Sufre de Hígado graso?=SI</p>
+                <input type="radio" name="preg26" value="Si" id="S17"><label for="S17">Si</label><br>
+                <input type="radio" name="preg26" value="No" id="N17"><label for="N17">No</label><br>
+              <br>
+              <p>27. ¿Sufre de hemocromatosis hereditaria? (Exceso de hierro en el cuerpo)=SI</p>
+                <input type="radio" name="preg27" value="Si" id="S18"><label for="S18">Si</label><br>
+                <input type="radio" name="preg27" value="No" id="N18"><label for="N18">No</label><br>
+              <br>
+              <p>28. ¿Tiene un pariente consanguíneo con asma, como un padre o un hermano?=SI</p>
+                <input type="radio" name="preg28" value="Si" id="S19"><label for="S19">Si</label><br>
+                <input type="radio" name="preg28" value="No" id="N19"><label for="N19">No</label><br>
+              <br>
+              <p>29. ¿Tiene alguna afección alérgica?=SI</p>
+                <input type="radio" name="preg29" value="Si" id="S20"><label for="S20">Si</label><br>
+                <input type="radio" name="preg29" value="No" id="N20"><label for="N20">No</label><br>
+              <br>
+              <input type="submit" value="Enviar"></center>
+            </form>
+        </div>
+      <br>
+    <div>
+    <div>
+        <footer>
+            Cedillo López Erick Omar
+            <br>
+            Granados Martínez Pablo Daniel
+            <br>
+            Jiménez Bernal Ernesto Amador
+            <br>
+            López Castillo Azurim Sua
+            <br>
+            Ugalde Tellez Aaron
+            <br>
+            Tellez de la Cruz Esaul
+        </footer>
+    </div>
+</body>
+</html>
